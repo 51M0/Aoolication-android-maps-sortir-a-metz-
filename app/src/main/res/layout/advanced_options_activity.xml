@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/advancedTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/advancedTitle"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/distanceTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/distanceTV"
+            android:textAlignment="center" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/distanceNum"
+            android:text="@string/distanceRadius"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/advancedCategories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="15sp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/advancedCateg"
+        android:layout_weight="1">
+
+    </ListView>
+    <Button
+        android:text="@string/advancedOptionsValidate"
+        android:layout_width="match_parent"
+        android:id="@+id/validateAdvancedOptions"
+        android:layout_weight="0.1"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SaM</string>
+    <string name="title_activity_map">SaM</string>
+    <string name="consultationText">Sites</string>
+    <string name="AddButton">Add new site</string>
+    <string name="deleteButton">Delete selectionned sites</string>
+    <string name="viewDetails">Site details</string>
+    <string name="mapMenuButton">Save current location</string>
+    <string name="addNewSiteTitle">Ajouter un nouveau site</string>
+    <string name="newSiteTitleEdit">Nom du site</string>
+    <string name="adressEdit">Adresse postale</string>
+    <string name="adresseEdit">Catégorie</string>
+    <string name="resumeEdit">Résumé</string>
+    <string name="validateNewSiteButton">Valider</string>
+    <string name="annulationButton">Annuler</string>
+    <string name="lockPosButton">Unlock position</string>
+    <string name="infoTitle" />
+    <string name="resumeSite" />
+    <string name="distance" />
+    <string name="markerButton">Add site</string>
+    <string name="advancedOptions">Options avancées</string>
+    <string name="advancedTitle">Options avancées</string>
+    <string name="distanceRadius" />
+    <string name="distanceTV">Distance (m):</string>
+    <string name="advancedOptionsValidate">Valider</string>
+    <string name="advancedCategories">Catégories:</string>
+    <string name="adressTV">Adresse</string>
+    <string name="resumeTV">Résumé</string>
+    <string name="categTV">Catégorie</string>
+</resources>
